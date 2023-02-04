@@ -1,0 +1,98 @@
+import React from 'react'
+import './skills.css'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
+
+const Skills = () => {
+  return (
+    <section id="skills">
+      <h5>What Tools I Know</h5>
+      <h2>My Skills</h2>
+      <div className="container skills__container">
+          <div className="skills__frontend">
+            <h3>Frontend Development</h3>
+            <div className="skills__content">
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>TypeScript</h4>
+                    <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>JavaScript</h4>
+                    <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>React JS</h4>
+                    <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>React Native</h4>
+                    <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>CSS</h4>
+                    <small className='text-light'>Basic</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>Tailwind</h4>
+                    <small className='text-light'>Basic</small>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div className="skills__backend">
+          <h3>Backend Development</h3>
+            <div className="skills__content">
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                  <h4>Node JS</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                  <h4>API's</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                  <h4>Popular Databases</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>Prisma</h4>
+                    <small className='text-light'>Basic</small>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+    </section>
+  )
+}
+
+
+export default Skills

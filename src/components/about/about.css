@@ -78,6 +78,10 @@
         margin: 2rem auto 4rem;
     }
 
+    .about__card {
+        padding: 1rem;
+    }
+
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
@@ -90,8 +94,12 @@
         margin: 0 auto 3rem;
     }
 
+    .about__icon {
+        margin-bottom: 0.1rem;
+    }
+
     .about__cards {
-        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
