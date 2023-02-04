@@ -5,6 +5,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {TbMessage2} from 'react-icons/tb'
+import {AiOutlineArrowDown} from 'react-icons/ai'
 
 import {useState} from 'react'
 
@@ -18,9 +19,11 @@ const Nav = () => {
 
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook size="1.2em"/></a>
 
-      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine size="1.2em"/></a>
+      {/* <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine size="1.2em"/></a> */}
 
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><TbMessage2 size="1.2em"/></a>
+
+      <a href="#footer" onClick={() => setActiveNav('#footer')} className={activeNav === '#footer' ? 'active' : ''}><AiOutlineArrowDown size="1.2em"/></a>
     </nav>
   )
 }

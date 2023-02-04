@@ -24,13 +24,13 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>13+ Years Working with General Technologies</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>8+ Clients</small>
+              <h5>E-commerce</h5>
+              <small>9+ Years In touch with Ecommerce at work</small>
             </article>
 
             <article className='about__card'>
@@ -40,9 +40,11 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam adipisci placeat cupiditate. Eos quo animi rem! Nesciunt quam architecto cumque blanditiis ducimus labore impedit nihil enim. Amet, harum dolorum! Minima?
-          </p>
+            <p>🧔🏻‍♂️ Brazilian, nature lover and sports enthusiast. I'm a JavaScript Full Stack Developer.</p>
+            <p>💡I am a motivated individual with a passion for upgrading people's lifes with technology. I am constantly seeking new challenges to grow and learn, and I have endless potential for personal and professional development.</p>
+            <p>💼 I have a background in high responsability companies who for example developed softwares for Juridic Systems. My professional experience has allowed me to develop a range of competencies, including JavaScript, TypeScript, React, Node.js, etc. (All skills are on competences sections with Linkedin's Certificate Competence Seals).</p>
+            <p>📖 I am a current student of WEB development at Anhanguera University and I am also taking specialized courses to enhance my skills and speed up my learning. In addition to my studies, I regularly participate in coding events with Rocketseat to further develop my skills and stay up-to-date with the latest technologies. </p>
+            <p>🤜🏻🤛🏾 I am eager to connect with professionals that share my interests and values! I am always open to collaborate and share knowledge!</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

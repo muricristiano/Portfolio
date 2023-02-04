@@ -19,20 +19,9 @@ nav a {
     padding: 0.8rem;
     border-radius: 50%;
     display: flex;
-    /* color: var(--color-light); */
     font-size: 1.1rem;
 }
 
-/* 
-Fazer um fundo preto de bolinha ao passar o mouse em cima dos ícones do Nav
-
-nav a:hover {
-    background: rgba(255, 255, 255, 0.3);
-}
-*/
-
-
 nav a.active {
-    /* background: rgba(0, 0, 0, 0.3); */
     color: var(--color-white);
 }
