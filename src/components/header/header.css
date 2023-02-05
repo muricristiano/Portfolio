@@ -56,6 +56,14 @@ header {
     font-size: 0.9rem;
 }
 
+.icon {
+    font-size: 16px;
+}
+
+.spacer {
+    padding: 0 15px;
+}
+
 
 
 /* Media Queries (Medium Devices) */
