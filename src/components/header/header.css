@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    height: 95vh;
+    padding-top: 5vh;
     overflow: hidden;
 }
 
@@ -36,14 +36,14 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 15rem;
-    height: 22rem;
+    width: 25vh;
+    /* height: 27rem; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     padding-top: 2rem;
 }
 
@@ -78,4 +78,4 @@ header {
     header {
         height: 100vh;
     }
-}
+} 

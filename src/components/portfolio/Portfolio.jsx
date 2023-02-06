@@ -9,14 +9,16 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'This Portfolio',
+    description: '',
     github: 'https://github.com/muricristiano/portfolio',
     demo: 'You are already seeing'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Orion UI kit - Charts templates infographics in Figma',
-    github: 'https://github.com',
+    title: 'Habit Tracker',
+    description: '',
+    github: 'https://github.com/muricristiano/habit-tracker',
     demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
   },
 ]
@@ -24,21 +26,21 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>My Lastest Creations</h5>
+      <h2>Personal Projects</h2>
 
     <div className="container portfolio__container">
       {
-        data.map(({id, image, title, github, demo}) => {
+        data.map(({id, image, title, github, description}) => {
           return (
             <article key={id} className='portfolio__item'>
                <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                </div>
             <h3>{title}</h3>
+            <p>{description}</p>
             <div className="portfolio__item-cta">
               <a href={github} className='btn btn-primary' target='_blank'>Github</a>
-              <a href={demo} className='btn' target='_blank'>Live Demo</a>
             </div>
           </article>
           )
