@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineFacebook} from 'react-icons/ai'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -19,8 +20,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://instagram.com/muri.cristiano" target='_blank'><AiOutlineInstagram className='footer__socials-icon icon-insta'/></a>
-        <a href="https://facebook.com/muri.cristiano" target='_blank'><AiOutlineFacebook className='footer__socials-icon icon-face'/></a>
+        <a href="https://instagram.com/muri.cristiano" target='_blank'><AiOutlineInstagram className='footer__socials-icon'/></a>
+        <a href="https://facebook.com/muri.cristiano" target='_blank'><AiOutlineFacebook className='footer__socials-icon'/></a>
+        <a href="https://linkedin.com/in/muricristiano" target='_blank'><AiOutlineLinkedin className='footer__socials-icon'/></a>
       </div>
 
       <div className="footer__copyright">
