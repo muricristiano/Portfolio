@@ -36,21 +36,35 @@ const Skills = () => {
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                     <h4>React Native</h4>
-                    <small className='text-light'>Experienced</small>
+                    <small className='text-light'>Essential</small>
                 </div>
               </article>
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                     <h4>CSS</h4>
-                    <small className='text-light'>Basic</small>
+                    <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                    <h4>Tailwind</h4>
-                    <small className='text-light'>Basic</small>
+                    <h4>HTML5</h4>
+                    <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>Shopify Based Platforms</h4>
+                    <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>Tailwind and Another Libraries</h4>
+                    <small className='text-light'>Essential</small>
                 </div>
               </article>
             </div>
@@ -76,15 +90,43 @@ const Skills = () => {
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                  <h4>Popular Databases</h4>
+                  <h4>SQL</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
+                    <h4>Oracle</h4>
+                    <small className='text-light'>Essential</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                  <h4>MongoDB</h4>
+                  <small className='text-light'>Essential</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
                     <h4>Prisma</h4>
-                    <small className='text-light'>Basic</small>
+                    <small className='text-light'>Essential</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                  <h4>Web Services</h4>
+                  <small className='text-light'>Essential</small>
+                </div>
+              </article>
+              <article className='skills__details'>
+                <BsFillPatchCheckFill className='skills__details-icon'/>
+                <div>
+                    <h4>Git / Github</h4>
+                    <small className='text-light'>Experienced</small>
                 </div>
               </article>
             </div>

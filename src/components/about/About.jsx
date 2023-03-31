@@ -11,16 +11,8 @@ const About = () => {
       <h5>Get to Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="" />
-          </div>
 
-        </div>
-
-        <div className="about__content">
-          <div className="about__cards">
+      <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
@@ -39,6 +31,17 @@ const About = () => {
               <small>+5 Years of Development </small>
             </article>
           </div>
+
+        <div className="container about__container">
+          <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="" />
+          </div>
+
+        </div>
+
+        <div className="about__content">
+
 
             <p>🧔🏻‍♂️ Brazilian, nature lover and sports enthusiast. I'm a JavaScript Full Stack Developer.</p>
             <p>💡I am a motivated individual with a passion for upgrading people's lifes with technology. I am constantly seeking new challenges to grow and learn, and I have endless potential for personal and professional development.</p>
