@@ -56,7 +56,7 @@ const Skills = () => {
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                    <h4>Shopify Based Platforms</h4>
+                    <h4>Shopify Platform</h4>
                     <small className='text-light'>Experienced</small>
                 </div>
               </article>
