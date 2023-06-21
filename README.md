@@ -1,7 +1,7 @@
 # Portfolio Website Using React
-This is a package.json file for a portfolio website developed using React. The project utilizes various technologies and dependencies to build an interactive and responsive website. Below is a brief explanation of the dependencies and devDependencies used:
+This is a package.json file for a portfolio website developed using React. The project utilizes various technologies and dependencies to build an interactive and responsive website. Below is a brief explanation of the technologies:
 
-## Dependencies
+## Technologies used:
 
 ### @emailjs/browser
 Version: 3.10.0
