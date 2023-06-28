@@ -21,3 +21,13 @@ nav a {
     display: flex;
     font-size: 1.1rem;
 }
+
+/* Media Queries (Medium Devices) */
+@media screen and (max-width: 1024px) {
+    nav {
+        bottom: 0.5rem;
+    }
+    nav a {
+        font-size: 0.9rem;
+    }
+}
