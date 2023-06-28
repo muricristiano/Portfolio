@@ -38,7 +38,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 25vh;
-    /* height: 27rem; */
+    height: 27rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -46,15 +46,15 @@ header {
     border-radius: 6rem 6rem 0 0;
     overflow: hidden;
     padding-top: 2rem;
-}
+} 
 
 .scroll__down {
     position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
+    right: -3rem;
+    bottom: 6rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .icon {

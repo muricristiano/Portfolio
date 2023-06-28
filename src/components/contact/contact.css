@@ -57,6 +57,10 @@ textarea {
     color: var(--color-white)
 }
 
+.btn {
+    font-family: poppins;
+}
+
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1200px) {
     .container.contact__container {

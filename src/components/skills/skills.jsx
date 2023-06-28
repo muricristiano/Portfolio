@@ -56,15 +56,15 @@ const Skills = () => {
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                    <h4>Shopify Platform</h4>
-                    <small className='text-light'>Experienced</small>
+                    <h4>CSS Libraries</h4>
+                    <small className='text-light'>Essential</small>
                 </div>
               </article>
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                    <h4>Tailwind and Another Libraries</h4>
-                    <small className='text-light'>Essential</small>
+                    <h4>Shopify</h4>
+                    <small className='text-light'>Experienced</small>
                 </div>
               </article>
             </div>
@@ -105,7 +105,7 @@ const Skills = () => {
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                   <h4>MongoDB</h4>
-                  <small className='text-light'>Essential</small>
+                  <small className='text-light'>Basics</small>
                 </div>
               </article>
               <article className='skills__details'>
@@ -119,7 +119,7 @@ const Skills = () => {
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                   <h4>Web Services</h4>
-                  <small className='text-light'>Essential</small>
+                  <small className='text-light'>Basics</small>
                 </div>
               </article>
               <article className='skills__details'>
