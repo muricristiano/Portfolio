@@ -15,7 +15,7 @@ const data = [
     title: 'Habit Tracker - Web',
     techs: 'React.js | Tailwind',
     description: 'With this app, users can define their own set of habits they wish to adopt, Each day, the app provides a color representation based on the percentage of habits completed, creating a visually engaging and motivating experience. Find the list of technologies used for this project on the project page by clicking the github link below:',
-    github: 'https://github.com/muricristiano/habit-web',
+    github: 'https://github.com/muricristiano/habit-tracker-web',
   },
   {  
     id: 2,
@@ -64,22 +64,28 @@ const Portfolio = () => {
       <h2>Personal Projects</h2>
 
       <div className="container portfolio__container">
-        {data.map(({id, image, title, techs, github, description}) => (
-          <a key={id} href={github} target="_blank" rel="noopener noreferrer">
-            <article className='portfolio__item'>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+        {data.map(({ id, image, title, techs, github, description }) => (
+          <div
+            key={id}
+            className={`portfolio__item ${github ? 'clickable' : 'non-clickable'}`}
+            onClick={() => {
+              if (github) {
+                window.open(github, '_blank');
+              }
+            }}
+          >
+            <div className="portfolio__item-image">
+              <img src={image} alt={title} />
+            </div>
+            <h3>{title}</h3>
+            <h4>{techs}</h4>
+            <p>{description}</p>
+            {github && (
+              <div className="portfolio__item-cta">
+                <a href={github} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Github</a>
               </div>
-              <h3>{title}</h3>
-              <h4>{techs}</h4>
-              <p>{description}</p>
-              {github && (
-                <div className="portfolio__item-cta">
-                  <a href={github} className='btn btn-primary' target='_blank'>Github</a>
-                </div>
-              )}
-            </article>
-          </a>
+            )}
+          </div>
         ))}
       </div>
     </section>
