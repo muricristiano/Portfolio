@@ -39,7 +39,7 @@
   object-position: center;
 }
 
-.portfolio__item h3 {
+.portfolio__item h2 {
   color: white;
   margin: 1.2rem 0 0.8rem;
 }
@@ -47,6 +47,7 @@
 .portfolio__item h4 {
   color: white;
   margin: 0 0 0.8rem;
+  font-weight: bold;
 }
 
 .portfolio__item p {

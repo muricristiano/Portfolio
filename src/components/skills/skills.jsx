@@ -36,7 +36,7 @@ const Skills = () => {
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                     <h4>React Native</h4>
-                    <small className='text-light'>Essential</small>
+                    <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='skills__details'>
@@ -57,13 +57,13 @@ const Skills = () => {
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                     <h4>CSS Libraries</h4>
-                    <small className='text-light'>Essential</small>
+                    <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                    <h4>Shopify</h4>
+                    <h4>Tailwind</h4>
                     <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -98,7 +98,7 @@ const Skills = () => {
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
                     <h4>Oracle</h4>
-                    <small className='text-light'>Essential</small>
+                    <small className='text-light'>Basics</small>
                 </div>
               </article>
               <article className='skills__details'>
@@ -111,8 +111,8 @@ const Skills = () => {
               <article className='skills__details'>
                 <BsFillPatchCheckFill className='skills__details-icon'/>
                 <div>
-                    <h4>Prisma</h4>
-                    <small className='text-light'>Essential</small>
+                    <h4>Prisma ORM</h4>
+                    <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='skills__details'>

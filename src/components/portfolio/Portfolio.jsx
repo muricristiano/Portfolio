@@ -7,7 +7,6 @@ import HABIT_TRACKER_SERVER_BANNER from '../../assets/habit-tracker-server-banne
 import SPOTIFY_V2_BANNER from '../../assets/spotify-banner.jpg'
 import CHAT_BANNER from '../../assets/chat-banner.jpg'
 
-{/* Array map for the projects*/}
 const data = [
   {
     id: 1,
@@ -77,7 +76,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={image} alt={title} />
             </div>
-            <h3>{title}</h3>
+            <h2>{title}</h2>
             <h4>{techs}</h4>
             <p>{description}</p>
             {github && (
