@@ -37,14 +37,14 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 25vh;
-    height: 27rem;
+    width: 22vh;
+    height: 30vh;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
-    border-radius: 6rem 6rem 0 0;
-    overflow: hidden;
+    border-radius: 11vh 11vh 0 0;
+    /* overflow: hidden; */
     padding-top: 2rem;
 } 
 
