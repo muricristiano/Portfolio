@@ -12,11 +12,30 @@ const Header = () => {
   return (
     <header id='header'>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Murilo Cristiano</h1>
-        <h5 className="text-light"><SiJavascript className='icon'/> Javascript <span class="spacer"/> <SiTypescript className='icon' /> Typescript</h5>
-        <h5 className="text-light"><FaReact className='icon'/> React <span class="spacer"/> <FaNodeJs className='icon'/> Node</h5>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <div className="presentation">
+          <h5>Hi, I'm</h5>
+          <h1>Murilo Cristiano</h1>
+          <h4>Fullstack Developer</h4>
+        </div>
+        <div className="stacks">
+          <div className="stacks-items">
+            <SiJavascript className='icon'/>
+            <h5 className="text-light">Javascript</h5>
+          </div>
+          <div className="stacks-items">
+            <SiTypescript className='icon' />
+            <h5 className="text-light">Typescript</h5>
+          </div>
+          <div className="stacks-items">
+            <FaReact className='icon'/>
+            <h5 className="text-light">React</h5>
+          </div>
+          <div className="stacks-items">
+            <FaNodeJs className='icon'/>
+            <h5 className='text-light'>Node.JS</h5>
+          </div>
+        
+        </div>
         <CTA />
         <HeaderSocials />
 

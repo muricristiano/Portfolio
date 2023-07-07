@@ -10,8 +10,101 @@ header {
     position: relative;
 }
 
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+
+    margin-bottom: 0.8vh;
+}
+
+.presentation h5{
+    color: transparent;
+
+    width: auto;
+    display: inline-block;
+    border-right: 4px solid transparent;
+    padding-right: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing-saudation 0.8s steps(9) forwards,
+        cursor-white .6s step-end forwards;
+}
+
+.presentation h1 {
+    color: transparent;
+
+    width: auto;
+    display: inline-block;
+    border-right: 4px solid transparent;
+    padding-right: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing-name 1.4s steps(16) 0.8s forwards,
+        cursor-white .6s step-end 0.8s forwards;
+}
+
+.presentation h4 {
+    color: transparent;
+
+    width: auto;
+    display: inline-block;
+    border-right: 4px solid transparent;
+    padding-right: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing-role 2s steps(20) 2.2s forwards,
+        cursor-color-primary .6s step-end infinite alternate 2.2s;
+}
+
+@keyframes cursor-white {
+    0% { border-color: var(--color-white)}
+    1% { color: var(--color-white) }
+    100% { color: var(--color-white) }
+}
+
+@keyframes cursor-color-primary {
+    50% { border-color: var(--color-primary) }
+    0% { color: var(--color-primary) }
+}
+
+@keyframes typing-saudation {
+    0% { width: 0 }
+    99% {width: 50px}
+}
+
+@keyframes typing-name {
+    0% { width: 0 }
+    99% { width: 260px}
+}
+
+@keyframes typing-role {
+    0% { width: 0 }
+    99% {width: 160px}
+}
+
+.stacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1rem;
+}
+
+.stacks-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -42,10 +135,10 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-radius: 11vh 11vh 0 0;
     /* overflow: hidden; */
-    padding-top: 2rem;
+    padding-top: 2.5rem;
 } 
 
 .scroll__down {
@@ -58,10 +151,11 @@ header {
 }
 
 .icon {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 1rem;
+    margin-right: 2px;
 }
 
 .spacer {

@@ -1,7 +1,7 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 32% 55%;
+    gap: 12%;
 }
 
 .about__me {
@@ -62,10 +62,30 @@
     color: var(--color-light);
 }
 
-.about__content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+
+.about__content h5 {
+    color: var(--color-primary);
     font-size: 1rem;
+}
+
+.about__content p {
+    margin: 0 0 0.5rem;
+    color: var(--color-light);
+    font-size: 0.9rem;
+}
+
+.primary-color-span {
+    color: var(--color-primary);
+}
+
+.bold-span {
+    font-weight: bold;
+    color: var(--color-white);
+    font-size: 1.1rem;
+}
+
+.btn {
+    margin: 1rem 0 0;
 }
 
 /* Media Queries (Medium Devices) */
