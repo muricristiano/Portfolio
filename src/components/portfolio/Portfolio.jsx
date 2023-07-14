@@ -5,7 +5,7 @@ import HABIT_TRACKER_WEB_BANNER from '../../assets/habit-tracker-web-banner.png'
 import HABIT_TRACKER_MOBILE_BANNER from '../../assets/habit-tracker-mobile-banner.jpg'
 import HABIT_TRACKER_SERVER_BANNER from '../../assets/habit-tracker-server-banner.jpg'
 import TEAM_WORKSPACE_FEED_BANNER from '../../assets/team-workspace-feed-banner.png'
-import SPOTIFY_V2_BANNER from '../../assets/spotify-banner.jpg'
+import TO_DO_LIST_APP_BANNER from '../../assets/to-do-list-app-banner.png'
 
 const data = [
   {
@@ -25,15 +25,23 @@ const data = [
     github: 'https://github.com/muricristiano/habit-tracker-mobile',
   },
   {
-    id: 3,
-    image: HABIT_TRACKER_SERVER_BANNER,
-    title: 'Habit Tracker - Server App',
-    techs: 'TypeScript | Node.js | Fastify | Prisma ORM | SQLite ',
-    description: 'The Backend for both Web and Mobile Habit Tracker applications. It provides the necessary routes and integrates with the frontend to create a seamless experience. Secure API handling and reliable database operations. Enables users to define and manage their own set of habits. Find the list of technologies used for this project on the project page by clicking the github link below:',
-    github: 'https://github.com/muricristiano/habit-tracker-server'
+    id: 5,
+    image: TEAM_WORKSPACE_FEED_BANNER,
+    title: 'Team Workspace Feed App',
+    techs: 'React.js | JavaScript | TypeScript',
+    description: 'Team Workspace Feed is a collaborative project aimed at creating a shared workspace where colleagues can connect openly and transparently. It serves as a platform for sharing updates, ideas, and questions, fostering teamwork and collective progress. Built using React, JavaScript/TypeScript, it offers a modern and intuitive user experience.',
+    github: 'https://github.com/muricristiano/team-workspace-feed',
   },
   {
-    id: 4,
+    id: 6,
+    image: TO_DO_LIST_APP_BANNER,
+    title: 'To-Do | Task List App',
+    techs: 'React.js | JavaScript',
+    description: 'A To-Do Task List app built with React.js and JavaScript. This app allows users to create and manage their tasks, mark them as completed, and delete tasks when necessary. It provides a simple and intuitive interface for organizing and tracking daily tasks and activities.',
+    github: 'https://github.com/muricristiano/to-do-task-list-app',
+  },
+  {
+    id: 6,
     image: PORTFOLIO_BANNER,
     title: 'This Portfolio Page',
     techs: 'React.js | TypeScript',
@@ -41,20 +49,12 @@ const data = [
     github: 'https://github.com/muricristiano/portfolio',
   },
   {
-    id: 5,
-    image: TEAM_WORKSPACE_FEED_BANNER,
-    title: 'Team Workspace Feed',
-    techs: 'React.js | JavaScript | TypeScript',
-    description: 'Team Workspace Feed is a collaborative project aimed at creating a shared workspace where colleagues can connect openly and transparently. It serves as a platform for sharing updates, ideas, and questions, fostering teamwork and collective progress. Built using React, JavaScript/TypeScript, it offers a modern and intuitive user experience.',
-    github: 'https://github.com/muricristiano/team-workspace-feed',
-  },
-  {
-    id: 5,
-    image: SPOTIFY_V2_BANNER,
-    title: 'Spotify | Clone 2.0',
-    techs: 'React.js | Tailwind | Redux | RapidAPI',
-    description: 'Next development.',
-    github: '',
+    id: 3,
+    image: HABIT_TRACKER_SERVER_BANNER,
+    title: 'Habit Tracker - Server App',
+    techs: 'TypeScript | Node.js | Fastify | Prisma ORM | SQLite ',
+    description: 'The Backend for both Web and Mobile Habit Tracker applications. It provides the necessary routes and integrates with the frontend to create a seamless experience. Secure API handling and reliable database operations. Enables users to define and manage their own set of habits. Find the list of technologies used for this project on the project page by clicking the github link below:',
+    github: 'https://github.com/muricristiano/habit-tracker-server'
   },
 ]
 
