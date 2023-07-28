@@ -3,9 +3,14 @@ import './portfolio.css'
 import PORTFOLIO_BANNER from '../../assets/portfolio-banner.png'
 import HABIT_TRACKER_WEB_BANNER from '../../assets/habit-tracker-web-banner.png'
 import HABIT_TRACKER_MOBILE_BANNER from '../../assets/habit-tracker-mobile-banner.jpg'
-import HABIT_TRACKER_SERVER_BANNER from '../../assets/habit-tracker-server-banner.jpg'
 import TEAM_WORKSPACE_FEED_BANNER from '../../assets/team-workspace-feed-banner.png'
 import TO_DO_LIST_APP_BANNER from '../../assets/to-do-list-app-banner.png'
+import PRODUCTIVITY_APP_BANNER from '../../assets/productivity-timer-app-pomodoro-banner.png'
+
+/* 
+  Holding for next 2 completing line projects
+  import HABIT_TRACKER_SERVER_BANNER from '../../assets/habit-tracker-server-banner.jpg' 
+*/
 
 const data = [
   {
@@ -16,16 +21,16 @@ const data = [
     description: 'With this app, users can define their own set of habits they wish to adopt, Each day, the app provides a color representation based on the percentage of habits completed, creating a visually engaging and motivating experience. Find the list of technologies used for this project on the project page by clicking the github link below:',
     github: 'https://github.com/muricristiano/habit-tracker-web',
   },
-  {  
-    id: 2,
-    image: HABIT_TRACKER_MOBILE_BANNER,
-    title: 'Habit Tracker - Mobile App',
-    techs: 'React Native | Tailwind Native',
-    description: 'With this app, users can define their own set of habits they wish to adopt, Each day, the app provides a color representation based on the percentage of habits completed, creating a visually engaging and motivating experience. Find the list of technologies used for this project on the project page by clicking the github link below:',
-    github: 'https://github.com/muricristiano/habit-tracker-mobile',
+  {
+   id: 2,
+   image: PRODUCTIVITY_APP_BANNER,
+   title: 'Productivity Timer App',
+   techs: 'TypeScript | React | Styled Components | RHF | Context API ',
+   description: 'Currently in daily development, This app goal is to boost your focus and productivity! Manage your time efficiently and stay on track with customized timers for specific activities. Enhance your workflow and achieve your goals. Built with TypeScript, React, and Styled Components.',
+   github: 'https://github.com/muricristiano/productivity-timer-pomodoro-app',
   },
   {
-    id: 5,
+    id: 3,
     image: TEAM_WORKSPACE_FEED_BANNER,
     title: 'Team Workspace Feed App',
     techs: 'React.js | JavaScript | TypeScript',
@@ -33,12 +38,20 @@ const data = [
     github: 'https://github.com/muricristiano/team-workspace-feed',
   },
   {
-    id: 6,
+    id: 4,
     image: TO_DO_LIST_APP_BANNER,
     title: 'To-Do | Task List App',
     techs: 'React.js | JavaScript',
     description: 'A To-Do Task List app built with React.js and JavaScript. This app allows users to create and manage their tasks, mark them as completed, and delete tasks when necessary. It provides a simple and intuitive interface for organizing and tracking daily tasks and activities.',
     github: 'https://github.com/muricristiano/to-do-task-list-app',
+  },
+  {  
+    id: 5,
+    image: HABIT_TRACKER_MOBILE_BANNER,
+    title: 'Habit Tracker - Mobile Version',
+    techs: 'React Native | Tailwind Native',
+    description: 'With this app, users can define their own set of habits they wish to adopt, Each day, the app provides a color representation based on the percentage of habits completed, creating a visually engaging and motivating experience. Find the list of technologies used for this project on the project page by clicking the github link below:',
+    github: 'https://github.com/muricristiano/habit-tracker-mobile',
   },
   {
     id: 6,
@@ -48,14 +61,14 @@ const data = [
     description: 'This portfolio page presents a project that combines React components with state-of-the-art animations and stylish modern and effective design elements. Find the list of technologies used for this project on the project page by clicking the github link below:',
     github: 'https://github.com/muricristiano/portfolio',
   },
-  {
-    id: 3,
+/*   {
+    id: 6,
     image: HABIT_TRACKER_SERVER_BANNER,
     title: 'Habit Tracker - Server App',
     techs: 'TypeScript | Node.js | Fastify | Prisma ORM | SQLite ',
     description: 'The Backend for both Web and Mobile Habit Tracker applications. It provides the necessary routes and integrates with the frontend to create a seamless experience. Secure API handling and reliable database operations. Enables users to define and manage their own set of habits. Find the list of technologies used for this project on the project page by clicking the github link below:',
     github: 'https://github.com/muricristiano/habit-tracker-server'
-  },
+  }, */
 ]
 
 const Portfolio = () => {
