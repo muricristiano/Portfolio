@@ -33,19 +33,19 @@ const Contact = () => {
             <MdOutlineMailOutline className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>muricristiano@gmail.com</h5>
-            <a href="mailto:muricristiano@gmail.com" target="_blank">Send an email</a>
+            <a href="mailto:muricristiano@gmail.com" target="_blank" rel="noreferrer">Send an email</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>Whatsapp</h4>
-            <h5>+55 (48) 98839 4527</h5>
-            <a href="https://api.whatsapp.com/send?phone=5548988394527" target="_blank">Send a message</a>
+            <h5>+351 939 186 221</h5>
+            <a href="https://api.whatsapp.com/send?phone=351939186221" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <FiPhoneCall className="contact__option-icon"/>
             <h4>Call</h4>
-            <h5>+55 (48) 98839 4527</h5>
-            <a href="tel:+5548988394527" target="_blank">Call me now</a>
+            <h5>+351 939 186 221</h5>
+            <a href="tel:+351939186221" target="_blank" rel="noreferrer">Call me now</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
