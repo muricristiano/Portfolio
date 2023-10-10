@@ -43,13 +43,20 @@ const About = () => {
         <div className="about__content">
 
 
-            <p><span className='bold-span'>Nature explorer, Neuroscience enthusiast & Visual arts lover. <br/> I'm a <span className='primary-color-span'>JavaScript Full Stack Developer</span>.</span></p>
-            <h5>Past</h5>
-            <p>I have a background in high responsibility companies who for example developed softwares for Juridic Systems. My professional experience has allowed me to develop a range of competencies, including JavaScript, TypeScript, React, Node.js, etc. (All skills are on competences sections with Linkedin's Certificate Competence Seals).</p>
-            <h5>Present</h5>
-            <p>I am a motivated individual with a passion for upgrading people's lives with technology. I am constantly seeking new challenges to grow and learn, both professionally and personally.</p>
-            <h5>Future</h5>
-            <p>I am a current student of WEB development at Anhanguera University and I am also taking specialized courses to enhance my skills and speed up my learning. In addition to my studies, I regularly participate in coding events with Rocketseat to further develop my skills and stay up-to-date with the latest technologies. </p>
+            <p>
+              <span className='bold-span'>Nature explorer, Neuroscience enthusiast & Visual arts lover. 
+                  <br/>
+                  <br/>
+                    I <span className='primary-color-span'> thrive</span> on using complexity <br/> to make everyone's <span className='primary-color-span'> life</span>  more <span className='primary-color-span'> efficient. </span>
+              </span>
+            </p>
+            <br/>
+            <h5>Standards</h5>
+            <p>Since my first experience working for a high-responsibility company that develops software for juridical systems. I have set my initial quality standard always high since them. My professional experience has allowed me to develop a large range of competencies.</p>
+            <h5>Consistency</h5>
+            <p>In the present moment, I am a current graduate student completing a degree next year in Superior Web Development Technology at Anhanguera University. Simultaneously, I am specializing through courses I consistently invest at the best coaching institution in my country.</p>
+            <h5>Innovation</h5>
+            <p>I regularly participate in coding events to stay up-to-date with the latest technologies and techniques, because maintaining a humble approach to learning is the key to maintain the mastery. </p>
             <p><span className='primary-color-span'>&gt;&gt; </span>I am eager to <span className='primary-color-span'>connect</span> with professionals that <span className='primary-color-span'>share</span> my interests and values! I am always open to <span className='primary-color-span'>collaborate</span> and share knowledge!</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
